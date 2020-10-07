@@ -4,7 +4,14 @@ export default {
   colors: {
     text: '#22222',
     background: '#fff',
-    primary: 'teal'
+    primary: 'teal',
+    modes: {
+      dark: {
+        text: '#fff',
+        background: '#000',
+        primary: 'teal'
+      }
+    }
   },
   fonts: {
     heading: 'Georgia, serif'
@@ -34,6 +41,13 @@ export default {
     default: {
       color: 'text',
       mb: 5
+    },
+    caps: {
+      textTransform: 'uppercase',
+      letterSpacing: '0.2em'
+    },
+    fancy: {
+      fontFamily: 'cursive'
     }
   }
 }
