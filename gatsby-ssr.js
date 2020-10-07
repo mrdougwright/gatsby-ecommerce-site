@@ -13,6 +13,7 @@ export const wrapRootElement = ({ element }) => {
       allowedCountries={['US', 'CA']}
       billingAddressCollection={true}
       mode={'checkout-session'}
+      currency={'USD'}
     >{element}</CartProvider>
   )
 }
