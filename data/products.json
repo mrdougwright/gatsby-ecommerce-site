@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Bananas",
+    "sku": "fruit_123",
+    "price": 400,
+    "image": "https://www.fillmurray.com/300/300",
+    "currency": "USD",
+    "description": "Very tasty yellow thing"
+  },
+  {
+    "name": "Apples",
+    "sku": "fruit_abc",
+    "price": 100,
+    "image": "https://www.fillmurray.com/300/300",
+    "currency": "USD",
+    "description": "Very tasty red thing"
+  },
+  {
+    "name": "Oranges",
+    "sku": "fruit_345",
+    "price": 200,
+    "image": "https://www.fillmurray.com/300/300",
+    "currency": "USD",
+    "description": "Very tasty orange thing"
+  }
+]
