@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Heading, Button, Grid, Image } from 'theme-ui'
+import { Box, Button, Grid, Image } from 'theme-ui'
 import { useShoppingCart, formatCurrencyString } from 'use-shopping-cart'
 
 function Product({ product }) {

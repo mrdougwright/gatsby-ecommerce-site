@@ -1,34 +1,31 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Box, Flex, NavLink } from 'theme-ui'
+import ShoppingCartIcon from '../components/shopping-cart-icon'
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
+  <Box
+    as="header"
+    sx={{
+      backgroundColor: `primary`,
       marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <Flex
+      as="nav"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        justifyContent: 'space-evenly'
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+      <NavLink as={Link} to={`/`}>Home</NavLink>
+      <NavLink as={Link} to={`/products`}>Products</NavLink>
+      <ShoppingCartIcon />
+    </Flex>
+  </Box>
 )
 
 Header.propTypes = {

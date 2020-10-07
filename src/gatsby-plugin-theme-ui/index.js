@@ -1,5 +1,3 @@
-import { Flex } from "theme-ui";
-
 export default {
   colors: {
     text: '#22222',

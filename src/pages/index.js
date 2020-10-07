@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Container, Heading, Text, Grid, Card, Box, Image, Button, useColorMode } from 'theme-ui'
 
 import Layout from "../components/layout"
